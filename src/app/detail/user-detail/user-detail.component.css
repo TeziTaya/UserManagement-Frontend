@@ -1,0 +1,9 @@
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px 70px;
+    z-index: 1;
+}

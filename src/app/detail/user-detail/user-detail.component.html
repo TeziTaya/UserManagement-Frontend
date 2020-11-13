@@ -1,0 +1,20 @@
+<div class="container" *ngIf="user">
+    <div class="row">
+        <aside class="col-sm-3"></aside>
+        <aside class="col-sm-6">
+            <div class="card bg-dark">
+                <div class="card-header text-white">
+                  <button routerLink="/users" class="btn btn-sm btn-outline-success">Back</button>
+                  <span class="offset-4 text-uppercase">Details</span>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-dark text-white"><span class="h6">First Name-</span> {{user.firstName}}</li>
+                  <li class="list-group-item bg-dark text-white"><span class="h6">Last Name-</span> {{user.lastName}}</li>
+                  <li class="list-group-item bg-dark text-white"><span class="h6">User Name-</span> {{user.userName}}</li>
+                </ul>
+              </div>
+            </aside>
+            <aside class="col-sm-3"></aside>
+    </div>
+</div>
+
